@@ -1,4 +1,5 @@
 # Yunzai OpenAI Bridge
+<img width="2305" height="1446" alt="image" src="https://github.com/user-attachments/assets/c003055e-f5fb-4637-9f2a-c3d67792a808" />
 
 将 [Miao-Yunzai](https://github.com/yoimiya-kokomi/Miao-Yunzai) 暴露为标准 OpenAI 兼容 API，支持 Cherry Studio、NextChat、LobeChat 等工具直接调用。
 
