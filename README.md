@@ -1,6 +1,6 @@
 # Yunzai OpenAI Bridge
 
-将 Yunzai-Bot 暴露为标准 OpenAI 兼容 API，支持 Cherry Studio、NextChat、LobeChat 等工具直接调用。
+将 [Miao-Yunzai](https://github.com/yoimiya-kokomi/Miao-Yunzai) 暴露为标准 OpenAI 兼容 API，支持 Cherry Studio、NextChat、LobeChat 等工具直接调用。
 
 ## 功能
 
@@ -14,10 +14,9 @@
 
 ```bash
 # 复制到 Yunzai 插件目录
-cp -r openai-bridge /path/to/Yunzai-Bot/user_plugins/openai-bridge
 
-# 复制配置文件
-cp openai-bridge/config/openai_bridge.yaml /path/to/Yunzai-Bot/config/config/openai_bridge.yaml
+cd Miao-Yunzai 
+git clone --depth=1 https://github.com/Omoinemie/yunzai-openai-bridge.git ./plugins/miao-plugin/
 
 # 重启 Yunzai
 ```
