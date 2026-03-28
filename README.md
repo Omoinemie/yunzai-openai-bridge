@@ -24,7 +24,7 @@ git clone --depth=1 https://github.com/Omoinemie/yunzai-openai-bridge.git ./plug
 
 ## 配置
 
-`config/config/openai_bridge.yaml`：
+`config/config.yaml`：
 
 ```yaml
 port: 3000                    # 监听端口（被占用请换一个）
